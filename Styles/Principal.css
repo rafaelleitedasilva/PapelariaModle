@@ -1,0 +1,64 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Cookie&family=Courgette&family=Lobster&family=Patrick+Hand&family=Source+Sans+Pro&display=swap');
+
+
+:root{
+    --cor1: #F0D8F2;
+    --cor2: #E98DF0;
+    --cor3: #B86FBD;
+    --cor4: #6D4270;
+    --cor5: #6F6470;
+
+    --font1: 'Comfortaa', cursive;
+    --font2: 'Cookie', cursive;
+    --font3: 'Courgette', cursive;
+    --font4: 'Lobster', cursive;
+    --font5: 'Patrick Hand', cursive;
+    --font6: 'Source Sans Pro', sans-serif;
+}
+
+main{
+    height: 100%;
+    width: 100%;
+    background-color: var(--cor1);
+}
+.navbar.navbar-expand-lg.navbar-light{
+    box-shadow: 1px 1px 4px var(--cor1);
+}
+
+.col{
+    text-align: center;
+    width: 100%;
+}
+
+a.navbar-brand{
+    color: var(--cor3) !important;
+    font-family: var(--font3);
+    font-size: 35px;
+}
+
+.navbar-toggler{
+    border: 0px !important;
+}
+
+a.nav-link{
+    font-family: var(--font1);
+    font-size: 20px;
+    color: var(--cor4);
+}
+
+/* Footer */
+.btn.btn-outline-light.btn-floating.m-1{
+    border-radius: 50%;
+    border: 0px;
+}
+
+.btn.btn-outline-light.btn-floating.m-1:hover{
+    background-color: transparent !important;
+}
+
+.rds{
+    font-family:var(--font1);
+    font-size: 20px;
+    color: var(--cor1);
+}
