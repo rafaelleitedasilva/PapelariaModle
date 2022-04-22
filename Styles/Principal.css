@@ -4,7 +4,7 @@
 
 :root{
     --cor1: #F0D8F2;
-    --cor2: #E98DF0;
+    --cor2: #f3a8f9;
     --cor3: #B86FBD;
     --cor4: #6D4270;
     --cor5: #6F6470;
@@ -18,7 +18,6 @@
 }
 
 main{
-    height: 100%;
     width: 100%;
     background-color: var(--cor1);
 }
@@ -48,6 +47,14 @@ a.nav-link{
 }
 
 /* Footer */
+.bg-dark.text-center.text-white{
+    bottom: 0;
+    background-color: white !important;
+    width: 100%;
+    box-shadow: 1px -2px 5px rgba(0, 0, 0, 0.514);
+    position: relative;
+}
+
 .btn.btn-outline-light.btn-floating.m-1{
     border-radius: 50%;
     border: 0px;
@@ -60,5 +67,25 @@ a.nav-link{
 .rds{
     font-family:var(--font1);
     font-size: 20px;
-    color: var(--cor1);
+    color: var(--cor4);
 }
+
+a.footer{
+    text-decoration: none;
+    color: rgb(0, 0, 130);
+}
+
+/* Barra de Rolagem */
+body::-webkit-scrollbar {
+    width: 5px;               /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: rgb(255, 255, 255);        /* color of the tracking area */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: rgba(98, 6, 119, 0.326);    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: transparent;  /* creates padding around scroll thumb */
+  }
