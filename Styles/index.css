@@ -34,29 +34,69 @@ body{
     main{
         padding: 10px;
     }
-    
+    .container.start{
+        background-color: white;
+        padding: 15px 0px;
+        box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.536);
+        margin-bottom: 30px;
+    }
+
+    .col.start1{
+        padding: 0px !important;
+        margin: 0 auto !important;
+        text-align: center;
+    }
+    .inicio{
+        width: 30vw;
+        
+    }
+    .h1s{
+        margin-left: 33px !important;
+        font-size: 6vw;
+        text-align: center !important;
+        color: var(--cor4);
+        font-family: var(--font3);
+        margin: 0 auto;
+    }
+    .ps{
+        text-align: center;
+        font-size: 1.7vw;
+        margin-left: 33px;
+        font-family: var(--font1);
+    }
     .h1{
         font-size: 50px;
         font-family: var(--font3);
     }
     .p{
-        text-indent: 30px;
         text-align: justify;
         font-size: 20px;
-        margin-right: 40px;
         font-family: var(--font1);
     }
-    .info1, .info3{
-        margin: auto;
-       width: 300px;
+    .info1{
+       margin: auto;
+       width: 500px;
     }
     .info2, .info3{
         margin: auto;
         width: 500px;
     }
+    .carousel{
+        width: 100%;
+        display: inline-flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .d-block.w-100{
+        display: inline;
+        width: 30vw !important;
+        margin: 5px;
+    }
+
     .col.info{
         display: inline-flex !important;
         width: 100%;
+        gap: 50px;
         margin: 0 auto !important;
         text-align: center !important;
     }
@@ -65,6 +105,10 @@ body{
 @media screen and (max-width:1100px){
     main{
         padding-top: 20px;
+    }
+    .carousel{
+        display: none;
+        opacity: 0;
     }
     .container.start{
         background-color: white;
