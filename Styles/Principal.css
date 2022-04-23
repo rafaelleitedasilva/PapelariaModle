@@ -29,7 +29,12 @@ main{
     text-align: center;
     width: 100%;
 }
-
+.col.info{
+    background-color: white;
+    padding: 5px;
+    margin: 10px;
+    box-shadow: 1px 2px 5px rgba(75, 31, 75, 0.708);
+}
 a.navbar-brand{
     color: var(--cor3) !important;
     font-family: var(--font3);
