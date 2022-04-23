@@ -125,20 +125,9 @@ body{
         width: 100%;
         
     }
-    a.inicio{
-        font-size: 20px;
-        line-height: 50px;
-        font-family: var(--font1);
-        text-decoration: none;
-        color: rgb(44, 41, 41);
-    }
-    a.inicio:hover{
-        text-decoration: none;
-        color: var(--cor3);
-    }
+   
     .col.start{
-        padding-right: 30px !important;
-        padding-top: 20px;
+        padding: 25px !important;
     }
     .h1s{
         margin-left: 33px !important;

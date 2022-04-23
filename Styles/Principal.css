@@ -31,7 +31,7 @@ main{
 }
 .col.info{
     background-color: white;
-    padding: 5px;
+    padding: 20px;
     margin: 10px;
     box-shadow: 1px 2px 5px rgba(75, 31, 75, 0.708);
 }
@@ -78,6 +78,17 @@ a.nav-link{
 a.footer{
     text-decoration: none;
     color: rgb(0, 0, 130);
+}
+a.inicio{
+    font-size: 20px;
+    line-height: 50px;
+    font-family: var(--font1);
+    text-decoration: none;
+    color: rgb(44, 41, 41);
+}
+a.inicio:hover{
+    text-decoration: none;
+    color: var(--cor3);
 }
 
 /* Barra de Rolagem */
