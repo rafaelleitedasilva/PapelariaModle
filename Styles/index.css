@@ -159,7 +159,7 @@ body{
         margin: auto;
         margin-top: 20px;
         box-shadow: 1px 1px 5px rgba(123, 52, 114, 0.536);
-        width:  !important;
+        width:  550px !important;
     }
     .d-block.w-100{
         height: 500px;
