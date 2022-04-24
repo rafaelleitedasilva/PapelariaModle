@@ -23,6 +23,7 @@ h1.VOP{
     font-size: 35px;
     line-height: 60px;
 }
+
 div.col.T{
     background-image: url("../Imagens/Risco-tinta-Png-1024x1024-removebg-preview.png");
     background-position: center;
@@ -34,6 +35,7 @@ div.col.T{
 div.divisoria{
     height: 40px;
     background-position: center;
+    background-repeat: no-repeat;
     width: 100%;
     background-image: url("../Imagens/pngtree-dividing-line-png-image_2947938-removebg-preview.png");
 }
@@ -79,6 +81,10 @@ div.texto{
         width: 300px;
         box-shadow: 1px 1px 5px rgba(128, 0, 128, 0.529);
     }
+    .Deitado{
+        height: 300px !important;
+        object-fit: cover;
+    }
 }
 /* Para telas grandes */
 @media screen and (min-width:1100px){
@@ -89,5 +95,9 @@ div.texto{
     div.divisoria{
         display: none;
         opacity: 0;
+    }
+    .Deitado{
+        height: 300px !important;
+        object-fit: cover;
     }
 }
