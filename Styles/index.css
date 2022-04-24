@@ -30,6 +30,7 @@ body{
     display: none;
     opacity: 0;
 }
+
 @media screen and (min-width:1100px){
     main{
         padding: 10px;
@@ -41,10 +42,12 @@ body{
         margin-bottom: 30px;
     }
 
-    .col.start1{
-        padding: 0px !important;
-        margin: 0 auto !important;
-        text-align: center;
+    .col.start.one{
+        margin-left: 40px;
+    }
+    .col.start{
+        margin: 40px;
+        margin-left: -40px;
     }
     .inicio{
         width: 100% !important;
@@ -126,21 +129,23 @@ body{
         
     }
    
+    .col.start.one{
+        margin-left: 40px;
+    }
     .col.start{
-        padding: 25px !important;
+        margin: 40px;
+        margin-left: -40px;
     }
     .h1s{
-        margin-left: 33px !important;
         font-size: 35px;
-        text-align: left !important;
+        text-align: center;
         color: var(--cor4);
         font-family: var(--font3);
         margin: 0 auto;
     }
     .ps{
-        text-align: left;
+        text-align: center;
         font-size: 15px;
-        margin-left: 33px;
         font-family: var(--font1);
     }
     .carousel.slide{
